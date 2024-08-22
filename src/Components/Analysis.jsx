@@ -71,10 +71,10 @@ export default function Analysis() {
         </div>
       </div>
       <div className="flex flex-row w-[100%] h-[100%]">
-      <div className="w-[42%] p-4 pr-2 pt-0">
+      <div className="w-[42%] h-[100%] p-4 pr-2 pt-0">
       <SalesChart/>
       </div>
-        <div className="w-[56%] p-4 pr-0 pt-0">
+        <div className="w-[56%] h-[100%] p-4 pr-0 pt-0 ">
           <TrafficSource/>
         </div>
         
