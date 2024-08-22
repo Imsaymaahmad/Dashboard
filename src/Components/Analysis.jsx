@@ -12,7 +12,7 @@ export default function Analysis() {
     return (
       <div className="m-[50px] flex flex-col">
       <div className=" w-full flex flex-row justify-between p-4">
-        <div className="h-[110px] w-[200px] bg-white rounded-md text-black flex flex-col items-start overflow-hidden shadow-md">
+        <div className="w-[24%] bg-white rounded-md text-black flex flex-col items-start overflow-hidden shadow-md">
           <div className=" flex flex-row">
           <div className=" mr-10">
           <p className="p-4 text-[9px] pb-0 text-gray-500">BUDGET</p>
@@ -28,7 +28,7 @@ export default function Analysis() {
           <p className="text-gray-500">since last month</p>
           </div>
         </div>
-        <div className="h-[110px] w-[200px] bg-white rounded-md text-black flex flex-col items-start overflow-hidden shadow-md">
+        <div className="w-[24%] bg-white rounded-md text-black flex flex-col items-start overflow-hidden shadow-md">
           <div className=" flex flex-row">
           <div className=" mr-10">
           <p className="p-4 pr-0 text-[8px] pb-0 text-gray-500">TOTAL CUSTOMERS</p>
@@ -44,7 +44,7 @@ export default function Analysis() {
           <p className="text-gray-500">since last month</p>
           </div>
         </div>
-        <div className="h-[110px] w-[200px] bg-white rounded-md text-black flex flex-col items-start overflow-hidden shadow-md">
+        <div className="w-[24%] bg-white rounded-md text-black flex flex-col items-start overflow-hidden shadow-md">
           <div className=" flex flex-row">
           <div className=" mr-10">
           <p className="p-4 text-[9px] pb-0 pr-0 text-gray-500">TASK PROGRESS</p>
@@ -58,9 +58,9 @@ export default function Analysis() {
           <div className="w-4/6 bg-blue-500 h-full rounded-md"></div>
           </div>
         </div>
-        <div className="h-[110px] w-[200px] bg-white rounded-md text-black flex flex-col items-start overflow-hidden shadow-md">
+        <div className="w-[24%] bg-white rounded-md text-black flex flex-col items-start overflow-hidden shadow-md">
           <div className=" flex flex-row">
-          <div className=" mr-10">
+          <div className=" mr-12">
           <p className="p-4 text-[9px] pr-0 pb-0 text-gray-500">TOTAL PROFIT</p>
           <p className=" p-4 font-bold text-xl pt-2 text-gray-800">$15K</p>
           </div>
@@ -70,11 +70,11 @@ export default function Analysis() {
           </div>
         </div>
       </div>
-      <div className="flex flex-row">
-      <div className="w-[380px] p-4 pt-0">
+      <div className="flex flex-row w-[100%] bg-black">
+      <div className="w-[42%] p-4 pr-2 pt-0">
       <SalesChart/>
       </div>
-        <div className="w-[500px] p-4 pr-0 pt-0">
+        <div className="w-[56%] p-4 pr-0 pt-0">
           <TrafficSource/>
         </div>
         
