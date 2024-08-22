@@ -10,8 +10,8 @@ import { TrafficSource } from "./TrafficSource";
 
 export default function Analysis() {
     return (
-      <div className="m-[50px] flex flex-col">
-      <div className=" w-full flex flex-row justify-between p-4">
+      <div className="m-[50px] w-[90%] h-[85%] flex flex-col">
+      <div className=" w-full flex flex-row justify-between p-4 h-full ">
         <div className="w-[24%] bg-white rounded-md text-black flex flex-col items-start overflow-hidden shadow-md">
           <div className=" flex flex-row">
           <div className=" mr-10">
@@ -70,7 +70,7 @@ export default function Analysis() {
           </div>
         </div>
       </div>
-      <div className="flex flex-row w-[100%] bg-black">
+      <div className="flex flex-row w-[100%]">
       <div className="w-[42%] p-4 pr-2 pt-0">
       <SalesChart/>
       </div>
