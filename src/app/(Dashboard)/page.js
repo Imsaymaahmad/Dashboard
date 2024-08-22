@@ -1,6 +1,6 @@
 "use client";
 
-import Analysis from "../Components/Analysis";
+import Analysis from "@/Components/Analysis";
 
 
 export default function Home() {
