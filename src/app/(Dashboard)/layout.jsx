@@ -1,5 +1,5 @@
-import SearchBar from '@/Components/SearchBar'
-import SideBar from '@/Components/SideBar'
+import SearchBar from '../Components/SearchBar'
+import SideBar from '../Components/SideBar'
 import React from 'react'
 
 
